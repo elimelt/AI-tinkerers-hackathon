@@ -1,0 +1,692 @@
+[
+  {
+    "id": 1,
+    "name": "Seattle Fresh Market",
+    "location": {
+      "address": "500 Pike St",
+      "city": "Seattle",
+      "state": "WA",
+      "zipCode": "98101"
+    },
+    "hours": "7:00 AM - 10:00 PM",
+    "tags": ["organic", "local", "gourmet"],
+    "products": [
+      {
+        "id": 101,
+        "name": "Organic Bananas",
+        "price": 0.99,
+        "unit": "lb",
+        "category": "Produce",
+        "nutrition": {
+          "calories": 105,
+          "fat": 0.4,
+          "carbohydrate": 27,
+          "protein": 1.3
+        }
+      },
+      {
+        "id": 102,
+        "name": "Whole Milk",
+        "price": 3.99,
+        "unit": "gallon",
+        "category": "Dairy",
+        "nutrition": {
+          "calories": 150,
+          "fat": 8,
+          "carbohydrate": 12,
+          "protein": 8
+        }
+      },
+      {
+        "id": 103,
+        "name": "Sourdough Bread",
+        "price": 4.99,
+        "unit": "loaf",
+        "category": "Bakery",
+        "nutrition": {
+          "calories": 120,
+          "fat": 0.5,
+          "carbohydrate": 24,
+          "protein": 4
+        }
+      },
+      {
+        "id": 104,
+        "name": "Ground Coffee",
+        "price": 8.99,
+        "unit": "12 oz",
+        "category": "Beverages",
+        "nutrition": {
+          "calories": 2,
+          "fat": 0,
+          "carbohydrate": 0,
+          "protein": 0.3
+        }
+      },
+      {
+        "id": 105,
+        "name": "Chicken Breast",
+        "price": 5.99,
+        "unit": "lb",
+        "category": "Meat",
+        "nutrition": {
+          "calories": 165,
+          "fat": 3.6,
+          "carbohydrate": 0,
+          "protein": 31
+        }
+      },
+      {
+        "id": 106,
+        "name": "Atlantic Salmon",
+        "price": 12.99,
+        "unit": "lb",
+        "category": "Seafood",
+        "nutrition": {
+          "calories": 208,
+          "fat": 13,
+          "carbohydrate": 0,
+          "protein": 22
+        }
+      },
+      {
+        "id": 107,
+        "name": "Avocado",
+        "price": 1.5,
+        "unit": "each",
+        "category": "Produce",
+        "nutrition": {
+          "calories": 320,
+          "fat": 29,
+          "carbohydrate": 17,
+          "protein": 4
+        }
+      },
+      {
+        "id": 108,
+        "name": "Organic Eggs",
+        "price": 5.99,
+        "unit": "dozen",
+        "category": "Dairy",
+        "nutrition": {
+          "calories": 70,
+          "fat": 5,
+          "carbohydrate": 0,
+          "protein": 6
+        }
+      },
+      {
+        "id": 109,
+        "name": "Quinoa",
+        "price": 6.99,
+        "unit": "16 oz",
+        "category": "Grains",
+        "nutrition": {
+          "calories": 222,
+          "fat": 3.6,
+          "carbohydrate": 39,
+          "protein": 8
+        }
+      },
+      {
+        "id": 110,
+        "name": "Greek Yogurt",
+        "price": 4.99,
+        "unit": "32 oz",
+        "category": "Dairy",
+        "nutrition": {
+          "calories": 100,
+          "fat": 0,
+          "carbohydrate": 6,
+          "protein": 18
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Emerald City Supermart",
+    "location": {
+      "address": "1400 3rd Ave",
+      "city": "Seattle",
+      "state": "WA",
+      "zipCode": "98101"
+    },
+    "hours": "6:00 AM - 11:00 PM",
+    "tags": ["supermarket", "wide-selection", "budget-friendly"],
+    "products": [
+      {
+        "id": 201,
+        "name": "Red Apples",
+        "price": 1.29,
+        "unit": "lb",
+        "category": "Produce",
+        "nutrition": {
+          "calories": 95,
+          "fat": 0.3,
+          "carbohydrate": 25,
+          "protein": 0.5
+        }
+      },
+      {
+        "id": 202,
+        "name": "White Bread",
+        "price": 2.49,
+        "unit": "loaf",
+        "category": "Bakery",
+        "nutrition": {
+          "calories": 80,
+          "fat": 1,
+          "carbohydrate": 15,
+          "protein": 2
+        }
+      },
+      {
+        "id": 203,
+        "name": "Ground Beef",
+        "price": 4.99,
+        "unit": "lb",
+        "category": "Meat",
+        "nutrition": {
+          "calories": 230,
+          "fat": 15,
+          "carbohydrate": 0,
+          "protein": 22
+        }
+      },
+      {
+        "id": 204,
+        "name": "Cheddar Cheese",
+        "price": 3.99,
+        "unit": "8 oz",
+        "category": "Dairy",
+        "nutrition": {
+          "calories": 110,
+          "fat": 9,
+          "carbohydrate": 0,
+          "protein": 7
+        }
+      },
+      {
+        "id": 205,
+        "name": "Potato Chips",
+        "price": 2.99,
+        "unit": "bag",
+        "category": "Snacks",
+        "nutrition": {
+          "calories": 160,
+          "fat": 10,
+          "carbohydrate": 15,
+          "protein": 2
+        }
+      },
+      {
+        "id": 206,
+        "name": "Soda",
+        "price": 1.99,
+        "unit": "2 liter",
+        "category": "Beverages",
+        "nutrition": {
+          "calories": 150,
+          "fat": 0,
+          "carbohydrate": 39,
+          "protein": 0
+        }
+      },
+      {
+        "id": 207,
+        "name": "Frozen Pizza",
+        "price": 5.99,
+        "unit": "each",
+        "category": "Frozen",
+        "nutrition": {
+          "calories": 300,
+          "fat": 12,
+          "carbohydrate": 35,
+          "protein": 14
+        }
+      },
+      {
+        "id": 208,
+        "name": "Cereal",
+        "price": 3.49,
+        "unit": "box",
+        "category": "Breakfast",
+        "nutrition": {
+          "calories": 120,
+          "fat": 1,
+          "carbohydrate": 26,
+          "protein": 2
+        }
+      },
+      {
+        "id": 209,
+        "name": "Peanut Butter",
+        "price": 3.99,
+        "unit": "16 oz",
+        "category": "Spreads",
+        "nutrition": {
+          "calories": 190,
+          "fat": 16,
+          "carbohydrate": 7,
+          "protein": 8
+        }
+      },
+      {
+        "id": 210,
+        "name": "Toilet Paper",
+        "price": 7.99,
+        "unit": "12 rolls",
+        "category": "Household"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Ballard Neighborhood Grocer",
+    "location": {
+      "address": "1400 NW Market St",
+      "city": "Seattle",
+      "state": "WA",
+      "zipCode": "98107"
+    },
+    "hours": "8:00 AM - 9:00 PM",
+    "tags": ["local", "community", "specialty"],
+    "products": [
+      {
+        "id": 301,
+        "name": "Artisan Cheese",
+        "price": 8.99,
+        "unit": "8 oz",
+        "category": "Dairy",
+        "nutrition": {
+          "calories": 120,
+          "fat": 10,
+          "carbohydrate": 0,
+          "protein": 8
+        }
+      },
+      {
+        "id": 302,
+        "name": "Craft Beer",
+        "price": 9.99,
+        "unit": "6-pack",
+        "category": "Beverages",
+        "nutrition": {
+          "calories": 150,
+          "fat": 0,
+          "carbohydrate": 13,
+          "protein": 1
+        }
+      },
+      {
+        "id": 303,
+        "name": "Fresh Baked Cookies",
+        "price": 5.99,
+        "unit": "dozen",
+        "category": "Bakery",
+        "nutrition": {
+          "calories": 130,
+          "fat": 6,
+          "carbohydrate": 18,
+          "protein": 2
+        }
+      },
+      {
+        "id": 304,
+        "name": "Local Honey",
+        "price": 7.99,
+        "unit": "12 oz",
+        "category": "Spreads",
+        "nutrition": {
+          "calories": 60,
+          "fat": 0,
+          "carbohydrate": 17,
+          "protein": 0
+        }
+      },
+      {
+        "id": 305,
+        "name": "Organic Kale",
+        "price": 2.99,
+        "unit": "bunch",
+        "category": "Produce",
+        "nutrition": {
+          "calories": 33,
+          "fat": 0.6,
+          "carbohydrate": 6,
+          "protein": 3
+        }
+      },
+      {
+        "id": 306,
+        "name": "Smoked Salmon",
+        "price": 14.99,
+        "unit": "8 oz",
+        "category": "Seafood",
+        "nutrition": {
+          "calories": 160,
+          "fat": 10,
+          "carbohydrate": 0,
+          "protein": 18
+        }
+      },
+      {
+        "id": 307,
+        "name": "Gluten-Free Bread",
+        "price": 6.99,
+        "unit": "loaf",
+        "category": "Bakery",
+        "nutrition": {
+          "calories": 90,
+          "fat": 2,
+          "carbohydrate": 17,
+          "protein": 1
+        }
+      },
+      {
+        "id": 308,
+        "name": "Kombucha",
+        "price": 3.99,
+        "unit": "bottle",
+        "category": "Beverages",
+        "nutrition": {
+          "calories": 30,
+          "fat": 0,
+          "carbohydrate": 7,
+          "protein": 0
+        }
+      },
+      {
+        "id": 309,
+        "name": "Vegan Ice Cream",
+        "price": 5.99,
+        "unit": "pint",
+        "category": "Frozen",
+        "nutrition": {
+          "calories": 200,
+          "fat": 11,
+          "carbohydrate": 23,
+          "protein": 3
+        }
+      },
+      {
+        "id": 310,
+        "name": "Grass-Fed Beef",
+        "price": 9.99,
+        "unit": "lb",
+        "category": "Meat",
+        "nutrition": {
+          "calories": 215,
+          "fat": 13,
+          "carbohydrate": 0,
+          "protein": 25
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Capitol Hill Mini Mart",
+    "location": {
+      "address": "721 Broadway E",
+      "city": "Seattle",
+      "state": "WA",
+      "zipCode": "98102"
+    },
+    "hours": "24 hours",
+    "tags": ["convenience", "quick-shop", "late-night"],
+    "products": [
+      {
+        "id": 401,
+        "name": "Energy Drink",
+        "price": 2.99,
+        "unit": "can",
+        "category": "Beverages",
+        "nutrition": {
+          "calories": 110,
+          "fat": 0,
+          "carbohydrate": 28,
+          "protein": 0
+        }
+      },
+      {
+        "id": 402,
+        "name": "Microwave Burrito",
+        "price": 1.99,
+        "unit": "each",
+        "category": "Frozen",
+        "nutrition": {
+          "calories": 350,
+          "fat": 16,
+          "carbohydrate": 44,
+          "protein": 12
+        }
+      },
+      {
+        "id": 403,
+        "name": "Bag of Ice",
+        "price": 3.99,
+        "unit": "5 lb",
+        "category": "Misc"
+      },
+      {
+        "id": 404,
+        "name": "Trail Mix",
+        "price": 4.99,
+        "unit": "bag",
+        "category": "Snacks",
+        "nutrition": {
+          "calories": 170,
+          "fat": 12,
+          "carbohydrate": 14,
+          "protein": 5
+        }
+      },
+      {
+        "id": 405,
+        "name": "Instant Noodles",
+        "price": 0.99,
+        "unit": "cup",
+        "category": "Pantry",
+        "nutrition": {
+          "calories": 290,
+          "fat": 12,
+          "carbohydrate": 40,
+          "protein": 7
+        }
+      },
+      {
+        "id": 406,
+        "name": "Cigarettes",
+        "price": 11.99,
+        "unit": "pack",
+        "category": "Tobacco"
+      },
+      {
+        "id": 407,
+        "name": "Bottled Water",
+        "price": 1.49,
+        "unit": "20 oz",
+        "category": "Beverages",
+        "nutrition": {
+          "calories": 0,
+          "fat": 0,
+          "carbohydrate": 0,
+          "protein": 0
+        }
+      },
+      {
+        "id": 408,
+        "name": "Aspirin",
+        "price": 5.99,
+        "unit": "bottle",
+        "category": "Health"
+      },
+      {
+        "id": 409,
+        "name": "Gum",
+        "price": 1.29,
+        "unit": "pack",
+        "category": "Candy",
+        "nutrition": {
+          "calories": 5,
+          "fat": 0,
+          "carbohydrate": 2,
+          "protein": 0
+        }
+      },
+      {
+        "id": 410,
+        "name": "Lottery Ticket",
+        "price": 2.0,
+        "unit": "each",
+        "category": "Misc"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Eastlake Health Foods",
+    "location": {
+      "address": "2245 Eastlake Ave E",
+      "city": "Seattle",
+      "state": "WA",
+      "zipCode": "98102"
+    },
+    "hours": "9:00 AM - 8:00 PM",
+    "tags": ["health-food", "organic", "supplements"],
+    "products": [
+      {
+        "id": 501,
+        "name": "Organic Spinach",
+        "price": 3.99,
+        "unit": "bunch",
+        "category": "Produce",
+        "nutrition": {
+          "calories": 23,
+          "fat": 0.4,
+          "carbohydrate": 3.6,
+          "protein": 2.9
+        }
+      },
+      {
+        "id": 502,
+        "name": "Almond Milk",
+        "price": 3.49,
+        "unit": "64 oz",
+        "category": "Dairy Alternatives",
+        "nutrition": {
+          "calories": 30,
+          "fat": 2.5,
+          "carbohydrate": 1,
+          "protein": 1
+        }
+      },
+      {
+        "id": 503,
+        "name": "Protein Powder",
+        "price": 29.99,
+        "unit": "2 lb",
+        "category": "Supplements",
+        "nutrition": {
+          "calories": 120,
+          "fat": 1,
+          "carbohydrate": 3,
+          "protein": 24
+        }
+      },
+      {
+        "id": 504,
+        "name": "Chia Seeds",
+        "price": 6.99,
+        "unit": "12 oz",
+        "category": "Superfoods",
+        "nutrition": {
+          "calories": 138,
+          "fat": 9,
+          "carbohydrate": 12,
+          "protein": 4.7
+        }
+      },
+      {
+        "id": 505,
+        "name": "Coconut Oil",
+        "price": 8.99,
+        "unit": "16 oz",
+        "category": "Cooking",
+        "nutrition": {
+          "calories": 120,
+          "fat": 14,
+          "carbohydrate": 0,
+          "protein": 0
+        }
+      },
+      {
+        "id": 506,
+        "name": "Multivitamin",
+        "price": 19.99,
+        "unit": "60 capsules",
+        "category": "Supplements",
+        "nutrition": {
+          "calories": 5,
+          "fat": 0,
+          "carbohydrate": 1,
+          "protein": 0
+        }
+      },
+      {
+        "id": 507,
+        "name": "Organic Tofu",
+        "price": 2.99,
+        "unit": "14 oz",
+        "category": "Protein",
+        "nutrition": {
+          "calories": 94,
+          "fat": 5.3,
+          "carbohydrate": 2.3,
+          "protein": 10
+        }
+      },
+      {
+        "id": 508,
+        "name": "Gluten-Free Pasta",
+        "price": 4.99,
+        "unit": "12 oz",
+        "category": "Grains",
+        "nutrition": {
+          "calories": 190,
+          "fat": 1,
+          "carbohydrate": 44,
+          "protein": 4
+        }
+      },
+      {
+        "id": 509,
+        "name": "Kombucha",
+        "price": 3.99,
+        "unit": "16 oz",
+        "category": "Beverages",
+        "nutrition": {
+          "calories": 30,
+          "fat": 0,
+          "carbohydrate": 7,
+          "protein": 0
+        }
+      },
+      {
+        "id": 510,
+        "name": "Vegan Protein Bar",
+        "price": 2.99,
+        "unit": "each",
+        "category": "Snacks",
+        "nutrition": {
+          "calories": 200,
+          "fat": 8,
+          "carbohydrate": 23,
+          "protein": 15
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,404 @@
+[
+  {
+    "timestamp": "2024-09-12 04:15:00",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 7 }
+  },
+  {
+    "timestamp": "2024-09-12 07:30:00",
+    "type": "food",
+    "description": "Protein Bar",
+    "data": { "calories": 220, "fat": 8, "saturatedFat": 3, "transFat": 0, "cholesterol": 5, "sodium": 140, "carbohydrate": 24, "dietaryFiber": 4, "sugars": 18, "addedSugars": 15, "protein": 20, "vitaminD": 0, "calcium": 50, "iron": 3, "potassium": 200 }
+  },
+  {
+    "timestamp": "2024-09-12 10:00:00",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 12 }
+  },
+  {
+    "timestamp": "2024-09-12 13:45:00",
+    "type": "food",
+    "description": "Grilled Chicken Salad",
+    "data": { "calories": 450, "fat": 22, "saturatedFat": 5, "carbohydrate": 20, "sugar": 4, "dietaryFiber": 5, "protein": 45, "cholesterol": 120, "sodium": 680 }
+  },
+  {
+    "timestamp": "2024-09-12 14:30:00",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 14 }
+  },
+  {
+    "timestamp": "2024-09-12 19:00:00",
+    "type": "exercise",
+    "description": "Jog",
+    "data": { "duration": 30.5, "distance": 3.2, "calories": 280 }
+  },
+  {
+    "timestamp": "2024-09-12 22:00:00",
+    "type": "insulin",
+    "description": "long",
+    "data": { "units": 60 }
+  },
+  {
+    "timestamp": "2024-09-13 03:45:00",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 8 }
+  },
+  {
+    "timestamp": "2024-09-13 08:15:00",
+    "type": "food",
+    "description": "Oatmeal with Berries",
+    "data": { "calories": 320, "fat": 6, "saturatedFat": 1, "transFat": 0, "cholesterol": 0, "sodium": 100, "carbohydrate": 56, "dietaryFiber": 8, "sugars": 12, "protein": 12, "vitaminD": 0, "calcium": 80, "iron": 4, "potassium": 300 }
+  },
+  {
+    "timestamp": "2024-09-13 09:30:00",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 14 }
+  },
+  {
+    "timestamp": "2024-09-13 13:00:00",
+    "type": "food",
+    "description": "Turkey Sandwich",
+    "data": { "calories": 420, "fat": 16, "saturatedFat": 4, "carbohydrate": 48, "sugar": 5, "dietaryFiber": 6, "protein": 28, "cholesterol": 65, "sodium": 820 }
+  },
+  {
+    "timestamp": "2024-09-13 14:15:00",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 16 }
+  },
+  {
+    "timestamp": "2024-09-13 20:30:00",
+    "type": "exercise",
+    "description": "Swim",
+    "data": { "duration": 45.0, "distance": 1.5, "calories": 400 }
+  },
+  {
+    "timestamp": "2024-09-13 22:30:00",
+    "type": "insulin",
+    "description": "long",
+    "data": { "units": 58 }
+  },
+  {
+    "timestamp": "2024-09-14 04:00:00",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 7 }
+  },
+  {
+    "timestamp": "2024-09-14 08:45:00",
+    "type": "food",
+    "description": "Yogurt Parfait",
+    "data": { "calories": 280, "fat": 10, "saturatedFat": 5, "transFat": 0, "cholesterol": 20, "sodium": 90, "carbohydrate": 38, "dietaryFiber": 4, "sugars": 26, "protein": 14, "vitaminD": 0, "calcium": 250, "iron": 1, "potassium": 350 }
+  },
+  {
+    "timestamp": "2024-09-14 10:00:00",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 13 }
+  },
+  {
+    "timestamp": "2024-09-14 13:30:00",
+    "type": "food",
+    "description": "Veggie Stir Fry",
+    "data": { "calories": 380, "fat": 12, "saturatedFat": 2, "carbohydrate": 54, "sugar": 8, "dietaryFiber": 10, "protein": 18, "cholesterol": 0, "sodium": 600 }
+  },
+  {
+    "timestamp": "2024-09-14 14:45:00",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 15 }
+  },
+  {
+    "timestamp": "2024-09-14 19:15:00",
+    "type": "exercise",
+    "description": "Yoga",
+    "data": { "duration": 60.0, "calories": 180 }
+  },
+  {
+    "timestamp": "2024-09-14 22:15:00",
+    "type": "insulin",
+    "description": "long",
+    "data": { "units": 56 }
+  },
+  {
+    "timestamp": "2024-09-15 03:30:00",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 6 }
+  },
+  {
+    "timestamp": "2024-09-15 08:00:00",
+    "type": "food",
+    "description": "Breakfast Burrito",
+    "data": { "calories": 520, "fat": 28, "saturatedFat": 12, "transFat": 0, "cholesterol": 290, "sodium": 980, "carbohydrate": 44, "dietaryFiber": 6, "sugars": 3, "protein": 24, "vitaminD": 2, "calcium": 200, "iron": 4, "potassium": 600 }
+  },
+  {
+    "timestamp": "2024-09-15 09:15:00",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 20 }
+  },
+  {
+    "timestamp": "2024-09-15 13:00:00",
+    "type": "food",
+    "description": "Grilled Salmon with Quinoa",
+    "data": { "calories": 550, "fat": 26, "saturatedFat": 4, "carbohydrate": 40, "sugar": 2, "dietaryFiber": 6, "protein": 42, "cholesterol": 90, "sodium": 420 }
+  },
+  {
+    "timestamp": "2024-09-15 14:30:00",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 18 }
+  },
+  {
+    "timestamp": "2024-09-15 18:45:00",
+    "type": "exercise",
+    "description": "Bike Ride",
+    "data": { "duration": 75.5, "distance": 20.3, "calories": 650 }
+  },
+  {
+    "timestamp": "2024-09-15 22:00:00",
+    "type": "insulin",
+    "description": "long",
+    "data": { "units": 59 }
+  },
+  {
+    "timestamp": "2024-09-16 04:15:00",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 7 }
+  },
+  {
+    "timestamp": "2024-09-16 08:30:00",
+    "type": "food",
+    "description": "Avocado Toast",
+    "data": { "calories": 350, "fat": 22, "saturatedFat": 4, "transFat": 0, "cholesterol": 0, "sodium": 400, "carbohydrate": 30, "dietaryFiber": 8, "sugars": 2, "protein": 10, "vitaminD": 0, "calcium": 40, "iron": 3, "potassium": 540 }
+  },
+  {
+    "timestamp": "2024-09-16 09:45:00",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 14 }
+  },
+  {
+    "timestamp": "2024-09-16 13:15:00",
+    "type": "food",
+    "description": "Chicken Caesar Salad",
+    "data": { "calories": 480, "fat": 32, "saturatedFat": 7, "carbohydrate": 14, "sugar": 3, "dietaryFiber": 4, "protein": 38, "cholesterol": 105, "sodium": 850 }
+  },
+  {
+    "timestamp": "2024-09-16 14:30:00",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 16 }
+  },
+  {
+    "timestamp": "2024-09-16 19:30:00",
+    "type": "exercise",
+    "description": "Strength Training",
+    "data": { "duration": 45.0, "calories": 280 }
+  },
+  {
+    "timestamp": "2024-09-16 22:15:00",
+    "type": "insulin",
+    "description": "long",
+    "data": { "units": 57 }
+  },
+  {
+    "timestamp": "2024-09-17 03:45:00",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 8 }
+  },
+  {
+    "timestamp": "2024-09-17 08:00:00",
+    "type": "food",
+    "description": "Smoothie Bowl",
+    "data": { "calories": 410, "fat": 14, "saturatedFat": 3, "transFat": 0, "cholesterol": 0, "sodium": 60, "carbohydrate": 64, "dietaryFiber": 10, "sugars": 32, "protein": 16, "vitaminD": 0, "calcium": 300, "iron": 4, "potassium": 800 }
+  },
+  {
+    "timestamp": "2024-09-17 09:30:00",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 17 }
+  },
+  {
+    "timestamp": "2024-09-17 13:00:00",
+    "type": "food",
+    "description": "Beef Stir Fry",
+    "data": { "calories": 580, "fat": 26, "saturatedFat": 8, "carbohydrate": 48, "sugar": 10, "dietaryFiber": 6, "protein": 42, "cholesterol": 95, "sodium": 980 }
+  },
+  {
+    "timestamp": "2024-09-17 14:15:00",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 22 }
+  },
+  {
+    "timestamp": "2024-09-17 20:00:00",
+    "type": "exercise",
+    "description": "HIIT Workout",
+    "data": { "duration": 30.0, "calories": 320 }
+  },
+  {
+    "timestamp": "2024-09-17 22:30:00",
+    "type": "insulin",
+    "description": "long",
+    "data": { "units": 58 }
+  },
+  {
+    "timestamp": "2024-09-18 04:00:00",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 7 }
+  },
+  {
+    "timestamp": "2024-09-18 08:30:00",
+    "type": "food",
+    "description": "Whole Grain Toast with Peanut Butter",
+    "data": { "calories": 340, "fat": 18, "saturatedFat": 3, "transFat": 0, "cholesterol": 0, "sodium": 280, "carbohydrate": 36, "dietaryFiber": 6, "sugars": 4, "protein": 14, "vitaminD": 0, "calcium": 40, "iron": 2, "potassium": 320 }
+  },
+  {
+    "timestamp": "2024-09-18 09:45:00",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 14 }
+  },
+  {
+    "timestamp": "2024-09-18 13:30:00",
+    "type": "food",
+    "description": "Vegetable Soup with Crackers",
+    "data": { "calories": 320, "fat": 8, "saturatedFat": 1, "carbohydrate": 52, "sugar": 12, "dietaryFiber": 8, "protein": 12, "cholesterol": 0, "sodium": 780 }
+  },
+  {
+    "timestamp": "2024-09-18 14:45:00",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 13 }
+  },
+  {
+    "timestamp": "2024-09-18 19:15:00",
+    "type": "exercise",
+    "description": "Walk",
+    "data": { "duration": 50.0, "calories": 200 }
+  },
+  {
+    "timestamp": "2024-09-18 22:00:00",
+    "type": "insulin",
+    "description": "long",
+    "data": { "units": 56 }
+  },
+  {
+    "timestamp": "2024-09-19 03:30:00",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 6 }
+  },
+  {
+    "timestamp": "2024-09-19 08:00:00",
+    "type": "food",
+    "description": "Clif Bar",
+    "data": { "calories": 250, "fat": 6, "saturatedFat": 2, "transFat": 0, "cholesterol": 0, "sodium": 130, "carbohydrate": 43, "dietaryFiber": 5, "sugars": 17, "addedSugars": 16, "protein": 10, "vitaminD": 0, "calcium": 45, "iron": 2, "potassium": 258, "vitaminE": 6, "phosphorus": 15, "magnesium": 15 }
+  },
+  {
+    "timestamp": "2024-09-19 09:53:00",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 15 }
+  },
+  {
+    "timestamp": "2024-09-19 12:11:00",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 20 }
+  },
+  {
+    "timestamp": "2024-09-19 13:32:10",
+    "type": "food",
+    "description": "Queso Fundido & Ground Beef",
+    "data": { "calories": 670, "fat": 49, "saturatedFat": 22, "carbohydrate": 15, "sugar": 6, "dietaryFiber": 7, "protein": 41, "cholesterol": 195, "sodium": 940 }
+  },
+  {
+    "timestamp": "2024-09-19 20:02:00",
+    "type": "exercise",
+    "description": "Walk",
+    "data": { "duration": 24.9, "distance": 0.95, "calories": 152 }
+  },
+  {
+    "timestamp": "2024-09-19 22:17:55",
+    "type": "insulin",
+    "description": "long",
+    "data": { "units": 60 }
+  },
+  {
+    "timestamp": "2024-09-19 22:31:09",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 10 }
+  },
+  {
+    "timestamp": "2024-09-19 22:31:09",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 13 }
+  },
+  {
+    "timestamp": "2024-09-20 07:05:40",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 15 }
+  },
+  {
+    "timestamp": "2024-09-20 13:42:00",
+    "type": "food",
+    "description": "Sun-Dried Tomato Chicken",
+    "data": { "calories": 670, "fat": 49, "saturatedFat": 23, "carbohydrate": 14, "sugar": 7, "dietaryFiber": 3, "protein": 39, "cholesterol": 230, "sodium": 810 }
+  },
+  {
+    "timestamp": "2024-09-20 14:43:06",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 10 }
+  },
+  {
+    "timestamp": "2024-09-20 18:01:25",
+    "type": "insulin",
+    "description": "long",
+    "data": { "units": 60 }
+  },
+  {
+    "timestamp": "2024-09-20 23:57:00",
+    "type": "exercise",
+    "description": "Walk",
+    "data": { "duration": 95.1, "distance": 3.28, "calories": 525 }
+  },
+  {
+    "timestamp": "2024-09-21 01:17:44",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 5 }
+  },
+  {
+    "timestamp": "2024-09-21 01:17:53",
+    "type": "insulin",
+    "description": "long",
+    "data": { "units": 60 }
+  },
+  {
+    "timestamp": "2024-09-21 12:31:02",
+    "type": "food",
+    "description": "Sandwich + Salad",
+    "data": { "fat": 35, "saturatedFat": 12, "transFat": 0, "polyunsaturatedFat": 3.5, "monounsaturatedFat": 18, "cholesterol": 65, "sodium": 1597, "carbohydrate": 30 }
+  },
+  {
+    "timestamp": "2024-09-21 14:50:00",
+    "type": "insulin",
+    "description": "fast",
+    "data": { "units": 16 }
+  }
+]

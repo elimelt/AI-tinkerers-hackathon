@@ -1,0 +1,2362 @@
+curl -X POST "http://localhost:8000/events/batch/" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "records": [
+      {
+        "timestamp": 1726761145.0,
+        "glucose_value": "53"
+      },
+      {
+        "timestamp": 1726761445.0,
+        "glucose_value": "61"
+      },
+      {
+        "timestamp": 1726761745.0,
+        "glucose_value": "77"
+      },
+      {
+        "timestamp": 1726762045.0,
+        "glucose_value": "94"
+      },
+      {
+        "timestamp": 1726762344.0,
+        "glucose_value": "108"
+      },
+      {
+        "timestamp": 1726762645.0,
+        "glucose_value": "126"
+      },
+      {
+        "timestamp": 1726762945.0,
+        "glucose_value": "142"
+      },
+      {
+        "timestamp": 1726763245.0,
+        "glucose_value": "139"
+      },
+      {
+        "timestamp": 1726763545.0,
+        "glucose_value": "129"
+      },
+      {
+        "timestamp": 1726763845.0,
+        "glucose_value": "146"
+      },
+      {
+        "timestamp": 1726764145.0,
+        "glucose_value": "161"
+      },
+      {
+        "timestamp": 1726764445.0,
+        "glucose_value": "183"
+      },
+      {
+        "timestamp": 1726764745.0,
+        "glucose_value": "210"
+      },
+      {
+        "timestamp": 1726765045.0,
+        "glucose_value": "224"
+      },
+      {
+        "timestamp": 1726765344.0,
+        "glucose_value": "248"
+      },
+      {
+        "timestamp": 1726765645.0,
+        "glucose_value": "264"
+      },
+      {
+        "timestamp": 1726765945.0,
+        "glucose_value": "276"
+      },
+      {
+        "timestamp": 1726766245.0,
+        "glucose_value": "294"
+      },
+      {
+        "timestamp": 1726766545.0,
+        "glucose_value": "300"
+      },
+      {
+        "timestamp": 1726766845.0,
+        "glucose_value": "316"
+      },
+      {
+        "timestamp": 1726767145.0,
+        "glucose_value": "331"
+      },
+      {
+        "timestamp": 1726767445.0,
+        "glucose_value": "339"
+      },
+      {
+        "timestamp": 1726767745.0,
+        "glucose_value": "347"
+      },
+      {
+        "timestamp": 1726768045.0,
+        "glucose_value": "351"
+      },
+      {
+        "timestamp": 1726768345.0,
+        "glucose_value": "354"
+      },
+      {
+        "timestamp": 1726768645.0,
+        "glucose_value": "357"
+      },
+      {
+        "timestamp": 1726768945.0,
+        "glucose_value": "359"
+      },
+      {
+        "timestamp": 1726769245.0,
+        "glucose_value": "359"
+      },
+      {
+        "timestamp": 1726769545.0,
+        "glucose_value": "360"
+      },
+      {
+        "timestamp": 1726769845.0,
+        "glucose_value": "361"
+      },
+      {
+        "timestamp": 1726770145.0,
+        "glucose_value": "361"
+      },
+      {
+        "timestamp": 1726770445.0,
+        "glucose_value": "364"
+      },
+      {
+        "timestamp": 1726770746.0,
+        "glucose_value": "368"
+      },
+      {
+        "timestamp": 1726771045.0,
+        "glucose_value": "370"
+      },
+      {
+        "timestamp": 1726771345.0,
+        "glucose_value": "366"
+      },
+      {
+        "timestamp": 1726771646.0,
+        "glucose_value": "366"
+      },
+      {
+        "timestamp": 1726771945.0,
+        "glucose_value": "368"
+      },
+      {
+        "timestamp": 1726772245.0,
+        "glucose_value": "366"
+      },
+      {
+        "timestamp": 1726772545.0,
+        "glucose_value": "365"
+      },
+      {
+        "timestamp": 1726772845.0,
+        "glucose_value": "362"
+      },
+      {
+        "timestamp": 1726773145.0,
+        "glucose_value": "358"
+      },
+      {
+        "timestamp": 1726773445.0,
+        "glucose_value": "351"
+      },
+      {
+        "timestamp": 1726773745.0,
+        "glucose_value": "346"
+      },
+      {
+        "timestamp": 1726774045.0,
+        "glucose_value": "346"
+      },
+      {
+        "timestamp": 1726774345.0,
+        "glucose_value": "340"
+      },
+      {
+        "timestamp": 1726774645.0,
+        "glucose_value": "336"
+      },
+      {
+        "timestamp": 1726774945.0,
+        "glucose_value": "326"
+      },
+      {
+        "timestamp": 1726775245.0,
+        "glucose_value": "313"
+      },
+      {
+        "timestamp": 1726775545.0,
+        "glucose_value": "297"
+      },
+      {
+        "timestamp": 1726775845.0,
+        "glucose_value": "288"
+      },
+      {
+        "timestamp": 1726776145.0,
+        "glucose_value": "275"
+      },
+      {
+        "timestamp": 1726776446.0,
+        "glucose_value": "262"
+      },
+      {
+        "timestamp": 1726776745.0,
+        "glucose_value": "250"
+      },
+      {
+        "timestamp": 1726777045.0,
+        "glucose_value": "239"
+      },
+      {
+        "timestamp": 1726777345.0,
+        "glucose_value": "226"
+      },
+      {
+        "timestamp": 1726777645.0,
+        "glucose_value": "211"
+      },
+      {
+        "timestamp": 1726777945.0,
+        "glucose_value": "196"
+      },
+      {
+        "timestamp": 1726778245.0,
+        "glucose_value": "183"
+      },
+      {
+        "timestamp": 1726778546.0,
+        "glucose_value": "172"
+      },
+      {
+        "timestamp": 1726778846.0,
+        "glucose_value": "161"
+      },
+      {
+        "timestamp": 1726779145.0,
+        "glucose_value": "150"
+      },
+      {
+        "timestamp": 1726779445.0,
+        "glucose_value": "140"
+      },
+      {
+        "timestamp": 1726779745.0,
+        "glucose_value": "131"
+      },
+      {
+        "timestamp": 1726780045.0,
+        "glucose_value": "122"
+      },
+      {
+        "timestamp": 1726780345.0,
+        "glucose_value": "114"
+      },
+      {
+        "timestamp": 1726780645.0,
+        "glucose_value": "105"
+      },
+      {
+        "timestamp": 1726780945.0,
+        "glucose_value": "97"
+      },
+      {
+        "timestamp": 1726781246.0,
+        "glucose_value": "88"
+      },
+      {
+        "timestamp": 1726781545.0,
+        "glucose_value": "78"
+      },
+      {
+        "timestamp": 1726781845.0,
+        "glucose_value": "70"
+      },
+      {
+        "timestamp": 1726782145.0,
+        "glucose_value": "63"
+      },
+      {
+        "timestamp": 1726782446.0,
+        "glucose_value": "53"
+      },
+      {
+        "timestamp": 1726782746.0,
+        "glucose_value": "47"
+      },
+      {
+        "timestamp": 1726783046.0,
+        "glucose_value": "40"
+      },
+      {
+        "timestamp": 1726783345.0,
+        "glucose_value": "41"
+      },
+      {
+        "timestamp": 1726783645.0,
+        "glucose_value": "51"
+      },
+      {
+        "timestamp": 1726783945.0,
+        "glucose_value": "72"
+      },
+      {
+        "timestamp": 1726784245.0,
+        "glucose_value": "98"
+      },
+      {
+        "timestamp": 1726784545.0,
+        "glucose_value": "122"
+      },
+      {
+        "timestamp": 1726784845.0,
+        "glucose_value": "149"
+      },
+      {
+        "timestamp": 1726785145.0,
+        "glucose_value": "168"
+      },
+      {
+        "timestamp": 1726785446.0,
+        "glucose_value": "175"
+      },
+      {
+        "timestamp": 1726785745.0,
+        "glucose_value": "181"
+      },
+      {
+        "timestamp": 1726786046.0,
+        "glucose_value": "182"
+      },
+      {
+        "timestamp": 1726786346.0,
+        "glucose_value": "185"
+      },
+      {
+        "timestamp": 1726786645.0,
+        "glucose_value": "189"
+      },
+      {
+        "timestamp": 1726786946.0,
+        "glucose_value": "194"
+      },
+      {
+        "timestamp": 1726787246.0,
+        "glucose_value": "197"
+      },
+      {
+        "timestamp": 1726787545.0,
+        "glucose_value": "196"
+      },
+      {
+        "timestamp": 1726787846.0,
+        "glucose_value": "198"
+      },
+      {
+        "timestamp": 1726788146.0,
+        "glucose_value": "199"
+      },
+      {
+        "timestamp": 1726788446.0,
+        "glucose_value": "201"
+      },
+      {
+        "timestamp": 1726788746.0,
+        "glucose_value": "200"
+      },
+      {
+        "timestamp": 1726789046.0,
+        "glucose_value": "199"
+      },
+      {
+        "timestamp": 1726789346.0,
+        "glucose_value": "199"
+      },
+      {
+        "timestamp": 1726789646.0,
+        "glucose_value": "197"
+      },
+      {
+        "timestamp": 1726789946.0,
+        "glucose_value": "193"
+      },
+      {
+        "timestamp": 1726790246.0,
+        "glucose_value": "189"
+      },
+      {
+        "timestamp": 1726790545.0,
+        "glucose_value": "182"
+      },
+      {
+        "timestamp": 1726790846.0,
+        "glucose_value": "177"
+      },
+      {
+        "timestamp": 1726791146.0,
+        "glucose_value": "172"
+      },
+      {
+        "timestamp": 1726791446.0,
+        "glucose_value": "165"
+      },
+      {
+        "timestamp": 1726791745.0,
+        "glucose_value": "162"
+      },
+      {
+        "timestamp": 1726792046.0,
+        "glucose_value": "155"
+      },
+      {
+        "timestamp": 1726792346.0,
+        "glucose_value": "151"
+      },
+      {
+        "timestamp": 1726792646.0,
+        "glucose_value": "148"
+      },
+      {
+        "timestamp": 1726792946.0,
+        "glucose_value": "152"
+      },
+      {
+        "timestamp": 1726793246.0,
+        "glucose_value": "149"
+      },
+      {
+        "timestamp": 1726793546.0,
+        "glucose_value": "144"
+      },
+      {
+        "timestamp": 1726793846.0,
+        "glucose_value": "130"
+      },
+      {
+        "timestamp": 1726794146.0,
+        "glucose_value": "124"
+      },
+      {
+        "timestamp": 1726794446.0,
+        "glucose_value": "119"
+      },
+      {
+        "timestamp": 1726794746.0,
+        "glucose_value": "114"
+      },
+      {
+        "timestamp": 1726795046.0,
+        "glucose_value": "110"
+      },
+      {
+        "timestamp": 1726795346.0,
+        "glucose_value": "106"
+      },
+      {
+        "timestamp": 1726795646.0,
+        "glucose_value": "100"
+      },
+      {
+        "timestamp": 1726795946.0,
+        "glucose_value": "91"
+      },
+      {
+        "timestamp": 1726796246.0,
+        "glucose_value": "80"
+      },
+      {
+        "timestamp": 1726796546.0,
+        "glucose_value": "75"
+      },
+      {
+        "timestamp": 1726796846.0,
+        "glucose_value": "72"
+      },
+      {
+        "timestamp": 1726797146.0,
+        "glucose_value": "62"
+      },
+      {
+        "timestamp": 1726797445.0,
+        "glucose_value": "59"
+      },
+      {
+        "timestamp": 1726797746.0,
+        "glucose_value": "51"
+      },
+      {
+        "timestamp": 1726798046.0,
+        "glucose_value": "58"
+      },
+      {
+        "timestamp": 1726798346.0,
+        "glucose_value": "71"
+      },
+      {
+        "timestamp": 1726798646.0,
+        "glucose_value": "70"
+      },
+      {
+        "timestamp": 1726798946.0,
+        "glucose_value": "69"
+      },
+      {
+        "timestamp": 1726799245.0,
+        "glucose_value": "66"
+      },
+      {
+        "timestamp": 1726799546.0,
+        "glucose_value": "68"
+      },
+      {
+        "timestamp": 1726799846.0,
+        "glucose_value": "72"
+      },
+      {
+        "timestamp": 1726800145.0,
+        "glucose_value": "78"
+      },
+      {
+        "timestamp": 1726800446.0,
+        "glucose_value": "81"
+      },
+      {
+        "timestamp": 1726800746.0,
+        "glucose_value": "88"
+      },
+      {
+        "timestamp": 1726801046.0,
+        "glucose_value": "96"
+      },
+      {
+        "timestamp": 1726801346.0,
+        "glucose_value": "104"
+      },
+      {
+        "timestamp": 1726801646.0,
+        "glucose_value": "111"
+      },
+      {
+        "timestamp": 1726801946.0,
+        "glucose_value": "113"
+      },
+      {
+        "timestamp": 1726802246.0,
+        "glucose_value": "113"
+      },
+      {
+        "timestamp": 1726802546.0,
+        "glucose_value": "111"
+      },
+      {
+        "timestamp": 1726802845.0,
+        "glucose_value": "109"
+      },
+      {
+        "timestamp": 1726803146.0,
+        "glucose_value": "109"
+      },
+      {
+        "timestamp": 1726803446.0,
+        "glucose_value": "119"
+      },
+      {
+        "timestamp": 1726803745.0,
+        "glucose_value": "128"
+      },
+      {
+        "timestamp": 1726804046.0,
+        "glucose_value": "132"
+      },
+      {
+        "timestamp": 1726804346.0,
+        "glucose_value": "134"
+      },
+      {
+        "timestamp": 1726804646.0,
+        "glucose_value": "136"
+      },
+      {
+        "timestamp": 1726804946.0,
+        "glucose_value": "133"
+      },
+      {
+        "timestamp": 1726805246.0,
+        "glucose_value": "131"
+      },
+      {
+        "timestamp": 1726805546.0,
+        "glucose_value": "134"
+      },
+      {
+        "timestamp": 1726805846.0,
+        "glucose_value": "135"
+      },
+      {
+        "timestamp": 1726806146.0,
+        "glucose_value": "136"
+      },
+      {
+        "timestamp": 1726806446.0,
+        "glucose_value": "141"
+      },
+      {
+        "timestamp": 1726806745.0,
+        "glucose_value": "149"
+      },
+      {
+        "timestamp": 1726807046.0,
+        "glucose_value": "157"
+      },
+      {
+        "timestamp": 1726807346.0,
+        "glucose_value": "168"
+      },
+      {
+        "timestamp": 1726807646.0,
+        "glucose_value": "176"
+      },
+      {
+        "timestamp": 1726807946.0,
+        "glucose_value": "187"
+      },
+      {
+        "timestamp": 1726808246.0,
+        "glucose_value": "198"
+      },
+      {
+        "timestamp": 1726808546.0,
+        "glucose_value": "210"
+      },
+      {
+        "timestamp": 1726808846.0,
+        "glucose_value": "217"
+      },
+      {
+        "timestamp": 1726809146.0,
+        "glucose_value": "227"
+      },
+      {
+        "timestamp": 1726809446.0,
+        "glucose_value": "232"
+      },
+      {
+        "timestamp": 1726809746.0,
+        "glucose_value": "238"
+      },
+      {
+        "timestamp": 1726810046.0,
+        "glucose_value": "246"
+      },
+      {
+        "timestamp": 1726810346.0,
+        "glucose_value": "252"
+      },
+      {
+        "timestamp": 1726810646.0,
+        "glucose_value": "252"
+      },
+      {
+        "timestamp": 1726810946.0,
+        "glucose_value": "255"
+      },
+      {
+        "timestamp": 1726811246.0,
+        "glucose_value": "252"
+      },
+      {
+        "timestamp": 1726811547.0,
+        "glucose_value": "251"
+      },
+      {
+        "timestamp": 1726811846.0,
+        "glucose_value": "243"
+      },
+      {
+        "timestamp": 1726812146.0,
+        "glucose_value": "237"
+      },
+      {
+        "timestamp": 1726812446.0,
+        "glucose_value": "233"
+      },
+      {
+        "timestamp": 1726812747.0,
+        "glucose_value": "232"
+      },
+      {
+        "timestamp": 1726813047.0,
+        "glucose_value": "229"
+      },
+      {
+        "timestamp": 1726813346.0,
+        "glucose_value": "225"
+      },
+      {
+        "timestamp": 1726813646.0,
+        "glucose_value": "218"
+      },
+      {
+        "timestamp": 1726813946.0,
+        "glucose_value": "217"
+      },
+      {
+        "timestamp": 1726814246.0,
+        "glucose_value": "213"
+      },
+      {
+        "timestamp": 1726814546.0,
+        "glucose_value": "205"
+      },
+      {
+        "timestamp": 1726814846.0,
+        "glucose_value": "196"
+      },
+      {
+        "timestamp": 1726815146.0,
+        "glucose_value": "192"
+      },
+      {
+        "timestamp": 1726815446.0,
+        "glucose_value": "190"
+      },
+      {
+        "timestamp": 1726815746.0,
+        "glucose_value": "195"
+      },
+      {
+        "timestamp": 1726816045.0,
+        "glucose_value": "209"
+      },
+      {
+        "timestamp": 1726816346.0,
+        "glucose_value": "220"
+      },
+      {
+        "timestamp": 1726816646.0,
+        "glucose_value": "222"
+      },
+      {
+        "timestamp": 1726816946.0,
+        "glucose_value": "224"
+      },
+      {
+        "timestamp": 1726817246.0,
+        "glucose_value": "249"
+      },
+      {
+        "timestamp": 1726817546.0,
+        "glucose_value": "258"
+      },
+      {
+        "timestamp": 1726817845.0,
+        "glucose_value": "264"
+      },
+      {
+        "timestamp": 1726818145.0,
+        "glucose_value": "273"
+      },
+      {
+        "timestamp": 1726818445.0,
+        "glucose_value": "272"
+      },
+      {
+        "timestamp": 1726818745.0,
+        "glucose_value": "295"
+      },
+      {
+        "timestamp": 1726819046.0,
+        "glucose_value": "310"
+      },
+      {
+        "timestamp": 1726819345.0,
+        "glucose_value": "310"
+      },
+      {
+        "timestamp": 1726819646.0,
+        "glucose_value": "302"
+      },
+      {
+        "timestamp": 1726819946.0,
+        "glucose_value": "288"
+      },
+      {
+        "timestamp": 1726820246.0,
+        "glucose_value": "272"
+      },
+      {
+        "timestamp": 1726820546.0,
+        "glucose_value": "253"
+      },
+      {
+        "timestamp": 1726820845.0,
+        "glucose_value": "228"
+      },
+      {
+        "timestamp": 1726821145.0,
+        "glucose_value": "200"
+      },
+      {
+        "timestamp": 1726821446.0,
+        "glucose_value": "171"
+      },
+      {
+        "timestamp": 1726821746.0,
+        "glucose_value": "150"
+      },
+      {
+        "timestamp": 1726822045.0,
+        "glucose_value": "136"
+      },
+      {
+        "timestamp": 1726822345.0,
+        "glucose_value": "127"
+      },
+      {
+        "timestamp": 1726822645.0,
+        "glucose_value": "121"
+      },
+      {
+        "timestamp": 1726822946.0,
+        "glucose_value": "115"
+      },
+      {
+        "timestamp": 1726823245.0,
+        "glucose_value": "109"
+      },
+      {
+        "timestamp": 1726823546.0,
+        "glucose_value": "102"
+      },
+      {
+        "timestamp": 1726823846.0,
+        "glucose_value": "95"
+      },
+      {
+        "timestamp": 1726824146.0,
+        "glucose_value": "90"
+      },
+      {
+        "timestamp": 1726824445.0,
+        "glucose_value": "85"
+      },
+      {
+        "timestamp": 1726824745.0,
+        "glucose_value": "80"
+      },
+      {
+        "timestamp": 1726825046.0,
+        "glucose_value": "76"
+      },
+      {
+        "timestamp": 1726825346.0,
+        "glucose_value": "71"
+      },
+      {
+        "timestamp": 1726825646.0,
+        "glucose_value": "67"
+      },
+      {
+        "timestamp": 1726825946.0,
+        "glucose_value": "63"
+      },
+      {
+        "timestamp": 1726826245.0,
+        "glucose_value": "59"
+      },
+      {
+        "timestamp": 1726826545.0,
+        "glucose_value": "54"
+      },
+      {
+        "timestamp": 1726826845.0,
+        "glucose_value": "51"
+      },
+      {
+        "timestamp": 1726827146.0,
+        "glucose_value": "48"
+      },
+      {
+        "timestamp": 1726827446.0,
+        "glucose_value": "45"
+      },
+      {
+        "timestamp": 1726827745.0,
+        "glucose_value": "43"
+      },
+      {
+        "timestamp": 1726828045.0,
+        "glucose_value": "41"
+      },
+      {
+        "timestamp": 1726828345.0,
+        "glucose_value": "40"
+      },
+      {
+        "timestamp": 1726828645.0,
+        "glucose_value": "46"
+      },
+      {
+        "timestamp": 1726828945.0,
+        "glucose_value": "51"
+      },
+      {
+        "timestamp": 1726829245.0,
+        "glucose_value": "57"
+      },
+      {
+        "timestamp": 1726829546.0,
+        "glucose_value": "66"
+      },
+      {
+        "timestamp": 1726829845.0,
+        "glucose_value": "81"
+      },
+      {
+        "timestamp": 1726830146.0,
+        "glucose_value": "99"
+      },
+      {
+        "timestamp": 1726830445.0,
+        "glucose_value": "119"
+      },
+      {
+        "timestamp": 1726830746.0,
+        "glucose_value": "136"
+      },
+      {
+        "timestamp": 1726831045.0,
+        "glucose_value": "151"
+      },
+      {
+        "timestamp": 1726831346.0,
+        "glucose_value": "164"
+      },
+      {
+        "timestamp": 1726831646.0,
+        "glucose_value": "176"
+      },
+      {
+        "timestamp": 1726831946.0,
+        "glucose_value": "185"
+      },
+      {
+        "timestamp": 1726832245.0,
+        "glucose_value": "192"
+      },
+      {
+        "timestamp": 1726832546.0,
+        "glucose_value": "201"
+      },
+      {
+        "timestamp": 1726832846.0,
+        "glucose_value": "209"
+      },
+      {
+        "timestamp": 1726833146.0,
+        "glucose_value": "216"
+      },
+      {
+        "timestamp": 1726833446.0,
+        "glucose_value": "222"
+      },
+      {
+        "timestamp": 1726833745.0,
+        "glucose_value": "222"
+      },
+      {
+        "timestamp": 1726834045.0,
+        "glucose_value": "222"
+      },
+      {
+        "timestamp": 1726834346.0,
+        "glucose_value": "212"
+      },
+      {
+        "timestamp": 1726834646.0,
+        "glucose_value": "200"
+      },
+      {
+        "timestamp": 1726834945.0,
+        "glucose_value": "216"
+      },
+      {
+        "timestamp": 1726835245.0,
+        "glucose_value": "223"
+      },
+      {
+        "timestamp": 1726835545.0,
+        "glucose_value": "227"
+      },
+      {
+        "timestamp": 1726835846.0,
+        "glucose_value": "228"
+      },
+      {
+        "timestamp": 1726836146.0,
+        "glucose_value": "230"
+      },
+      {
+        "timestamp": 1726836446.0,
+        "glucose_value": "235"
+      },
+      {
+        "timestamp": 1726836746.0,
+        "glucose_value": "243"
+      },
+      {
+        "timestamp": 1726837045.0,
+        "glucose_value": "254"
+      },
+      {
+        "timestamp": 1726837346.0,
+        "glucose_value": "266"
+      },
+      {
+        "timestamp": 1726837646.0,
+        "glucose_value": "278"
+      },
+      {
+        "timestamp": 1726837946.0,
+        "glucose_value": "290"
+      },
+      {
+        "timestamp": 1726838245.0,
+        "glucose_value": "300"
+      },
+      {
+        "timestamp": 1726838546.0,
+        "glucose_value": "310"
+      },
+      {
+        "timestamp": 1726838845.0,
+        "glucose_value": "319"
+      },
+      {
+        "timestamp": 1726839148.0,
+        "glucose_value": "327"
+      },
+      {
+        "timestamp": 1726839446.0,
+        "glucose_value": "335"
+      },
+      {
+        "timestamp": 1726839745.0,
+        "glucose_value": "348"
+      },
+      {
+        "timestamp": 1726840046.0,
+        "glucose_value": "358"
+      },
+      {
+        "timestamp": 1726840346.0,
+        "glucose_value": "367"
+      },
+      {
+        "timestamp": 1726840646.0,
+        "glucose_value": "376"
+      },
+      {
+        "timestamp": 1726840946.0,
+        "glucose_value": "382"
+      },
+      {
+        "timestamp": 1726841246.0,
+        "glucose_value": "387"
+      },
+      {
+        "timestamp": 1726841546.0,
+        "glucose_value": "388"
+      },
+      {
+        "timestamp": 1726841846.0,
+        "glucose_value": "390"
+      },
+      {
+        "timestamp": 1726842146.0,
+        "glucose_value": "391"
+      },
+      {
+        "timestamp": 1726842445.0,
+        "glucose_value": "388"
+      },
+      {
+        "timestamp": 1726842746.0,
+        "glucose_value": "382"
+      },
+      {
+        "timestamp": 1726843046.0,
+        "glucose_value": "372"
+      },
+      {
+        "timestamp": 1726843346.0,
+        "glucose_value": "359"
+      },
+      {
+        "timestamp": 1726843646.0,
+        "glucose_value": "348"
+      },
+      {
+        "timestamp": 1726843946.0,
+        "glucose_value": "340"
+      },
+      {
+        "timestamp": 1726844245.0,
+        "glucose_value": "329"
+      },
+      {
+        "timestamp": 1726844546.0,
+        "glucose_value": "316"
+      },
+      {
+        "timestamp": 1726844846.0,
+        "glucose_value": "305"
+      },
+      {
+        "timestamp": 1726845146.0,
+        "glucose_value": "296"
+      },
+      {
+        "timestamp": 1726845446.0,
+        "glucose_value": "287"
+      },
+      {
+        "timestamp": 1726845745.0,
+        "glucose_value": "275"
+      },
+      {
+        "timestamp": 1726846046.0,
+        "glucose_value": "265"
+      },
+      {
+        "timestamp": 1726846346.0,
+        "glucose_value": "258"
+      },
+      {
+        "timestamp": 1726846646.0,
+        "glucose_value": "253"
+      },
+      {
+        "timestamp": 1726846946.0,
+        "glucose_value": "246"
+      },
+      {
+        "timestamp": 1726847246.0,
+        "glucose_value": "237"
+      },
+      {
+        "timestamp": 1726847546.0,
+        "glucose_value": "230"
+      },
+      {
+        "timestamp": 1726847846.0,
+        "glucose_value": "223"
+      },
+      {
+        "timestamp": 1726848146.0,
+        "glucose_value": "217"
+      },
+      {
+        "timestamp": 1726848446.0,
+        "glucose_value": "211"
+      },
+      {
+        "timestamp": 1726848746.0,
+        "glucose_value": "205"
+      },
+      {
+        "timestamp": 1726849046.0,
+        "glucose_value": "194"
+      },
+      {
+        "timestamp": 1726849346.0,
+        "glucose_value": "172"
+      },
+      {
+        "timestamp": 1726849646.0,
+        "glucose_value": "162"
+      },
+      {
+        "timestamp": 1726849946.0,
+        "glucose_value": "158"
+      },
+      {
+        "timestamp": 1726850246.0,
+        "glucose_value": "164"
+      },
+      {
+        "timestamp": 1726850546.0,
+        "glucose_value": "151"
+      },
+      {
+        "timestamp": 1726850846.0,
+        "glucose_value": "157"
+      },
+      {
+        "timestamp": 1726851146.0,
+        "glucose_value": "148"
+      },
+      {
+        "timestamp": 1726851446.0,
+        "glucose_value": "146"
+      },
+      {
+        "timestamp": 1726851746.0,
+        "glucose_value": "140"
+      },
+      {
+        "timestamp": 1726852047.0,
+        "glucose_value": "138"
+      },
+      {
+        "timestamp": 1726852346.0,
+        "glucose_value": "133"
+      },
+      {
+        "timestamp": 1726852646.0,
+        "glucose_value": "127"
+      },
+      {
+        "timestamp": 1726852947.0,
+        "glucose_value": "123"
+      },
+      {
+        "timestamp": 1726853246.0,
+        "glucose_value": "119"
+      },
+      {
+        "timestamp": 1726853546.0,
+        "glucose_value": "117"
+      },
+      {
+        "timestamp": 1726853846.0,
+        "glucose_value": "116"
+      },
+      {
+        "timestamp": 1726854146.0,
+        "glucose_value": "116"
+      },
+      {
+        "timestamp": 1726854446.0,
+        "glucose_value": "116"
+      },
+      {
+        "timestamp": 1726854746.0,
+        "glucose_value": "112"
+      },
+      {
+        "timestamp": 1726855046.0,
+        "glucose_value": "109"
+      },
+      {
+        "timestamp": 1726855346.0,
+        "glucose_value": "109"
+      },
+      {
+        "timestamp": 1726855646.0,
+        "glucose_value": "110"
+      },
+      {
+        "timestamp": 1726855946.0,
+        "glucose_value": "111"
+      },
+      {
+        "timestamp": 1726856246.0,
+        "glucose_value": "112"
+      },
+      {
+        "timestamp": 1726856546.0,
+        "glucose_value": "111"
+      },
+      {
+        "timestamp": 1726856847.0,
+        "glucose_value": "109"
+      },
+      {
+        "timestamp": 1726857146.0,
+        "glucose_value": "109"
+      },
+      {
+        "timestamp": 1726857446.0,
+        "glucose_value": "110"
+      },
+      {
+        "timestamp": 1726857746.0,
+        "glucose_value": "111"
+      },
+      {
+        "timestamp": 1726858046.0,
+        "glucose_value": "111"
+      },
+      {
+        "timestamp": 1726858346.0,
+        "glucose_value": "112"
+      },
+      {
+        "timestamp": 1726858646.0,
+        "glucose_value": "107"
+      },
+      {
+        "timestamp": 1726858947.0,
+        "glucose_value": "114"
+      },
+      {
+        "timestamp": 1726859247.0,
+        "glucose_value": "114"
+      },
+      {
+        "timestamp": 1726859547.0,
+        "glucose_value": "120"
+      },
+      {
+        "timestamp": 1726859847.0,
+        "glucose_value": "123"
+      },
+      {
+        "timestamp": 1726860146.0,
+        "glucose_value": "121"
+      },
+      {
+        "timestamp": 1726860447.0,
+        "glucose_value": "129"
+      },
+      {
+        "timestamp": 1726860746.0,
+        "glucose_value": "138"
+      },
+      {
+        "timestamp": 1726861046.0,
+        "glucose_value": "144"
+      },
+      {
+        "timestamp": 1726861347.0,
+        "glucose_value": "150"
+      },
+      {
+        "timestamp": 1726861647.0,
+        "glucose_value": "155"
+      },
+      {
+        "timestamp": 1726861946.0,
+        "glucose_value": "159"
+      },
+      {
+        "timestamp": 1726862247.0,
+        "glucose_value": "164"
+      },
+      {
+        "timestamp": 1726862547.0,
+        "glucose_value": "167"
+      },
+      {
+        "timestamp": 1726862846.0,
+        "glucose_value": "174"
+      },
+      {
+        "timestamp": 1726863147.0,
+        "glucose_value": "182"
+      },
+      {
+        "timestamp": 1726863446.0,
+        "glucose_value": "187"
+      },
+      {
+        "timestamp": 1726863746.0,
+        "glucose_value": "188"
+      },
+      {
+        "timestamp": 1726864046.0,
+        "glucose_value": "191"
+      },
+      {
+        "timestamp": 1726864346.0,
+        "glucose_value": "197"
+      },
+      {
+        "timestamp": 1726864647.0,
+        "glucose_value": "202"
+      },
+      {
+        "timestamp": 1726864947.0,
+        "glucose_value": "212"
+      },
+      {
+        "timestamp": 1726865247.0,
+        "glucose_value": "214"
+      },
+      {
+        "timestamp": 1726865546.0,
+        "glucose_value": "216"
+      },
+      {
+        "timestamp": 1726865846.0,
+        "glucose_value": "214"
+      },
+      {
+        "timestamp": 1726866147.0,
+        "glucose_value": "217"
+      },
+      {
+        "timestamp": 1726866447.0,
+        "glucose_value": "219"
+      },
+      {
+        "timestamp": 1726866747.0,
+        "glucose_value": "222"
+      },
+      {
+        "timestamp": 1726867047.0,
+        "glucose_value": "226"
+      },
+      {
+        "timestamp": 1726867347.0,
+        "glucose_value": "232"
+      },
+      {
+        "timestamp": 1726867646.0,
+        "glucose_value": "237"
+      },
+      {
+        "timestamp": 1726867946.0,
+        "glucose_value": "238"
+      },
+      {
+        "timestamp": 1726868247.0,
+        "glucose_value": "239"
+      },
+      {
+        "timestamp": 1726868547.0,
+        "glucose_value": "237"
+      },
+      {
+        "timestamp": 1726868847.0,
+        "glucose_value": "237"
+      },
+      {
+        "timestamp": 1726869147.0,
+        "glucose_value": "236"
+      },
+      {
+        "timestamp": 1726869447.0,
+        "glucose_value": "229"
+      },
+      {
+        "timestamp": 1726869746.0,
+        "glucose_value": "223"
+      },
+      {
+        "timestamp": 1726870047.0,
+        "glucose_value": "222"
+      },
+      {
+        "timestamp": 1726870347.0,
+        "glucose_value": "220"
+      },
+      {
+        "timestamp": 1726870647.0,
+        "glucose_value": "220"
+      },
+      {
+        "timestamp": 1726870947.0,
+        "glucose_value": "220"
+      },
+      {
+        "timestamp": 1726871246.0,
+        "glucose_value": "222"
+      },
+      {
+        "timestamp": 1726871547.0,
+        "glucose_value": "233"
+      },
+      {
+        "timestamp": 1726871847.0,
+        "glucose_value": "233"
+      },
+      {
+        "timestamp": 1726872147.0,
+        "glucose_value": "229"
+      },
+      {
+        "timestamp": 1726872446.0,
+        "glucose_value": "225"
+      },
+      {
+        "timestamp": 1726872746.0,
+        "glucose_value": "225"
+      },
+      {
+        "timestamp": 1726873046.0,
+        "glucose_value": "228"
+      },
+      {
+        "timestamp": 1726873347.0,
+        "glucose_value": "227"
+      },
+      {
+        "timestamp": 1726873647.0,
+        "glucose_value": "227"
+      },
+      {
+        "timestamp": 1726873947.0,
+        "glucose_value": "229"
+      },
+      {
+        "timestamp": 1726874247.0,
+        "glucose_value": "229"
+      },
+      {
+        "timestamp": 1726874546.0,
+        "glucose_value": "229"
+      },
+      {
+        "timestamp": 1726874846.0,
+        "glucose_value": "228"
+      },
+      {
+        "timestamp": 1726875147.0,
+        "glucose_value": "226"
+      },
+      {
+        "timestamp": 1726875447.0,
+        "glucose_value": "223"
+      },
+      {
+        "timestamp": 1726875747.0,
+        "glucose_value": "220"
+      },
+      {
+        "timestamp": 1726876047.0,
+        "glucose_value": "216"
+      },
+      {
+        "timestamp": 1726876347.0,
+        "glucose_value": "212"
+      },
+      {
+        "timestamp": 1726876647.0,
+        "glucose_value": "208"
+      },
+      {
+        "timestamp": 1726876947.0,
+        "glucose_value": "201"
+      },
+      {
+        "timestamp": 1726877247.0,
+        "glucose_value": "196"
+      },
+      {
+        "timestamp": 1726877547.0,
+        "glucose_value": "192"
+      },
+      {
+        "timestamp": 1726877846.0,
+        "glucose_value": "189"
+      },
+      {
+        "timestamp": 1726878147.0,
+        "glucose_value": "187"
+      },
+      {
+        "timestamp": 1726878446.0,
+        "glucose_value": "186"
+      },
+      {
+        "timestamp": 1726878746.0,
+        "glucose_value": "184"
+      },
+      {
+        "timestamp": 1726879047.0,
+        "glucose_value": "182"
+      },
+      {
+        "timestamp": 1726879347.0,
+        "glucose_value": "181"
+      },
+      {
+        "timestamp": 1726879646.0,
+        "glucose_value": "179"
+      },
+      {
+        "timestamp": 1726879947.0,
+        "glucose_value": "178"
+      },
+      {
+        "timestamp": 1726880247.0,
+        "glucose_value": "174"
+      },
+      {
+        "timestamp": 1726880547.0,
+        "glucose_value": "174"
+      },
+      {
+        "timestamp": 1726880847.0,
+        "glucose_value": "174"
+      },
+      {
+        "timestamp": 1726881147.0,
+        "glucose_value": "176"
+      },
+      {
+        "timestamp": 1726881447.0,
+        "glucose_value": "177"
+      },
+      {
+        "timestamp": 1726881747.0,
+        "glucose_value": "177"
+      },
+      {
+        "timestamp": 1726882047.0,
+        "glucose_value": "178"
+      },
+      {
+        "timestamp": 1726882347.0,
+        "glucose_value": "178"
+      },
+      {
+        "timestamp": 1726882647.0,
+        "glucose_value": "178"
+      },
+      {
+        "timestamp": 1726882947.0,
+        "glucose_value": "174"
+      },
+      {
+        "timestamp": 1726883247.0,
+        "glucose_value": "173"
+      },
+      {
+        "timestamp": 1726883547.0,
+        "glucose_value": "173"
+      },
+      {
+        "timestamp": 1726883847.0,
+        "glucose_value": "174"
+      },
+      {
+        "timestamp": 1726884147.0,
+        "glucose_value": "173"
+      },
+      {
+        "timestamp": 1726884447.0,
+        "glucose_value": "173"
+      },
+      {
+        "timestamp": 1726884747.0,
+        "glucose_value": "171"
+      },
+      {
+        "timestamp": 1726885047.0,
+        "glucose_value": "172"
+      },
+      {
+        "timestamp": 1726885347.0,
+        "glucose_value": "173"
+      },
+      {
+        "timestamp": 1726885647.0,
+        "glucose_value": "173"
+      },
+      {
+        "timestamp": 1726885947.0,
+        "glucose_value": "170"
+      },
+      {
+        "timestamp": 1726886247.0,
+        "glucose_value": "167"
+      },
+      {
+        "timestamp": 1726886547.0,
+        "glucose_value": "166"
+      },
+      {
+        "timestamp": 1726886847.0,
+        "glucose_value": "164"
+      },
+      {
+        "timestamp": 1726887147.0,
+        "glucose_value": "161"
+      },
+      {
+        "timestamp": 1726887447.0,
+        "glucose_value": "156"
+      },
+      {
+        "timestamp": 1726887747.0,
+        "glucose_value": "155"
+      },
+      {
+        "timestamp": 1726888047.0,
+        "glucose_value": "154"
+      },
+      {
+        "timestamp": 1726888347.0,
+        "glucose_value": "157"
+      },
+      {
+        "timestamp": 1726888648.0,
+        "glucose_value": "165"
+      },
+      {
+        "timestamp": 1726888947.0,
+        "glucose_value": "171"
+      },
+      {
+        "timestamp": 1726889247.0,
+        "glucose_value": "174"
+      },
+      {
+        "timestamp": 1726889547.0,
+        "glucose_value": "175"
+      },
+      {
+        "timestamp": 1726889848.0,
+        "glucose_value": "180"
+      },
+      {
+        "timestamp": 1726890147.0,
+        "glucose_value": "186"
+      },
+      {
+        "timestamp": 1726890447.0,
+        "glucose_value": "191"
+      },
+      {
+        "timestamp": 1726890747.0,
+        "glucose_value": "195"
+      },
+      {
+        "timestamp": 1726891047.0,
+        "glucose_value": "197"
+      },
+      {
+        "timestamp": 1726891347.0,
+        "glucose_value": "197"
+      },
+      {
+        "timestamp": 1726891647.0,
+        "glucose_value": "195"
+      },
+      {
+        "timestamp": 1726891948.0,
+        "glucose_value": "190"
+      },
+      {
+        "timestamp": 1726892247.0,
+        "glucose_value": "186"
+      },
+      {
+        "timestamp": 1726892547.0,
+        "glucose_value": "185"
+      },
+      {
+        "timestamp": 1726892847.0,
+        "glucose_value": "187"
+      },
+      {
+        "timestamp": 1726893147.0,
+        "glucose_value": "181"
+      },
+      {
+        "timestamp": 1726893447.0,
+        "glucose_value": "167"
+      },
+      {
+        "timestamp": 1726893748.0,
+        "glucose_value": "161"
+      },
+      {
+        "timestamp": 1726894047.0,
+        "glucose_value": "157"
+      },
+      {
+        "timestamp": 1726894348.0,
+        "glucose_value": "154"
+      },
+      {
+        "timestamp": 1726894647.0,
+        "glucose_value": "150"
+      },
+      {
+        "timestamp": 1726894948.0,
+        "glucose_value": "147"
+      },
+      {
+        "timestamp": 1726895247.0,
+        "glucose_value": "151"
+      },
+      {
+        "timestamp": 1726895547.0,
+        "glucose_value": "158"
+      },
+      {
+        "timestamp": 1726895848.0,
+        "glucose_value": "159"
+      },
+      {
+        "timestamp": 1726896148.0,
+        "glucose_value": "158"
+      },
+      {
+        "timestamp": 1726896448.0,
+        "glucose_value": "160"
+      },
+      {
+        "timestamp": 1726896748.0,
+        "glucose_value": "161"
+      },
+      {
+        "timestamp": 1726897047.0,
+        "glucose_value": "162"
+      },
+      {
+        "timestamp": 1726897347.0,
+        "glucose_value": "176"
+      },
+      {
+        "timestamp": 1726897647.0,
+        "glucose_value": "190"
+      },
+      {
+        "timestamp": 1726897948.0,
+        "glucose_value": "203"
+      },
+      {
+        "timestamp": 1726898247.0,
+        "glucose_value": "213"
+      },
+      {
+        "timestamp": 1726898547.0,
+        "glucose_value": "216"
+      },
+      {
+        "timestamp": 1726898847.0,
+        "glucose_value": "216"
+      },
+      {
+        "timestamp": 1726899147.0,
+        "glucose_value": "215"
+      },
+      {
+        "timestamp": 1726899447.0,
+        "glucose_value": "220"
+      },
+      {
+        "timestamp": 1726899747.0,
+        "glucose_value": "210"
+      },
+      {
+        "timestamp": 1726900048.0,
+        "glucose_value": "205"
+      },
+      {
+        "timestamp": 1726900347.0,
+        "glucose_value": "202"
+      },
+      {
+        "timestamp": 1726900647.0,
+        "glucose_value": "196"
+      },
+      {
+        "timestamp": 1726900947.0,
+        "glucose_value": "194"
+      },
+      {
+        "timestamp": 1726901247.0,
+        "glucose_value": "186"
+      },
+      {
+        "timestamp": 1726901547.0,
+        "glucose_value": "171"
+      },
+      {
+        "timestamp": 1726901847.0,
+        "glucose_value": "157"
+      },
+      {
+        "timestamp": 1726902148.0,
+        "glucose_value": "153"
+      },
+      {
+        "timestamp": 1726902448.0,
+        "glucose_value": "152"
+      },
+      {
+        "timestamp": 1726902748.0,
+        "glucose_value": "154"
+      },
+      {
+        "timestamp": 1726903048.0,
+        "glucose_value": "159"
+      },
+      {
+        "timestamp": 1726903347.0,
+        "glucose_value": "151"
+      },
+      {
+        "timestamp": 1726903648.0,
+        "glucose_value": "143"
+      },
+      {
+        "timestamp": 1726903947.0,
+        "glucose_value": "144"
+      },
+      {
+        "timestamp": 1726904247.0,
+        "glucose_value": "156"
+      },
+      {
+        "timestamp": 1726904547.0,
+        "glucose_value": "168"
+      },
+      {
+        "timestamp": 1726904848.0,
+        "glucose_value": "178"
+      },
+      {
+        "timestamp": 1726905148.0,
+        "glucose_value": "184"
+      },
+      {
+        "timestamp": 1726905448.0,
+        "glucose_value": "192"
+      },
+      {
+        "timestamp": 1726905747.0,
+        "glucose_value": "199"
+      },
+      {
+        "timestamp": 1726906047.0,
+        "glucose_value": "207"
+      },
+      {
+        "timestamp": 1726906348.0,
+        "glucose_value": "210"
+      },
+      {
+        "timestamp": 1726906648.0,
+        "glucose_value": "211"
+      },
+      {
+        "timestamp": 1726906948.0,
+        "glucose_value": "213"
+      },
+      {
+        "timestamp": 1726907248.0,
+        "glucose_value": "211"
+      },
+      {
+        "timestamp": 1726907548.0,
+        "glucose_value": "207"
+      },
+      {
+        "timestamp": 1726907848.0,
+        "glucose_value": "212"
+      },
+      {
+        "timestamp": 1726908148.0,
+        "glucose_value": "214"
+      },
+      {
+        "timestamp": 1726908447.0,
+        "glucose_value": "209"
+      },
+      {
+        "timestamp": 1726908747.0,
+        "glucose_value": "219"
+      },
+      {
+        "timestamp": 1726909048.0,
+        "glucose_value": "223"
+      },
+      {
+        "timestamp": 1726909347.0,
+        "glucose_value": "225"
+      },
+      {
+        "timestamp": 1726909648.0,
+        "glucose_value": "224"
+      },
+      {
+        "timestamp": 1726909947.0,
+        "glucose_value": "223"
+      },
+      {
+        "timestamp": 1726910247.0,
+        "glucose_value": "210"
+      },
+      {
+        "timestamp": 1726910547.0,
+        "glucose_value": "191"
+      },
+      {
+        "timestamp": 1726910847.0,
+        "glucose_value": "186"
+      },
+      {
+        "timestamp": 1726911148.0,
+        "glucose_value": "184"
+      },
+      {
+        "timestamp": 1726911447.0,
+        "glucose_value": "187"
+      },
+      {
+        "timestamp": 1726911748.0,
+        "glucose_value": "201"
+      },
+      {
+        "timestamp": 1726912047.0,
+        "glucose_value": "200"
+      },
+      {
+        "timestamp": 1726912348.0,
+        "glucose_value": "191"
+      },
+      {
+        "timestamp": 1726912647.0,
+        "glucose_value": "188"
+      },
+      {
+        "timestamp": 1726912947.0,
+        "glucose_value": "188"
+      },
+      {
+        "timestamp": 1726913247.0,
+        "glucose_value": "191"
+      },
+      {
+        "timestamp": 1726913548.0,
+        "glucose_value": "196"
+      },
+      {
+        "timestamp": 1726913847.0,
+        "glucose_value": "198"
+      },
+      {
+        "timestamp": 1726914147.0,
+        "glucose_value": "203"
+      },
+      {
+        "timestamp": 1726914448.0,
+        "glucose_value": "207"
+      },
+      {
+        "timestamp": 1726914747.0,
+        "glucose_value": "204"
+      },
+      {
+        "timestamp": 1726915048.0,
+        "glucose_value": "206"
+      },
+      {
+        "timestamp": 1726915348.0,
+        "glucose_value": "204"
+      },
+      {
+        "timestamp": 1726915648.0,
+        "glucose_value": "202"
+      },
+      {
+        "timestamp": 1726915948.0,
+        "glucose_value": "198"
+      },
+      {
+        "timestamp": 1726916247.0,
+        "glucose_value": "193"
+      },
+      {
+        "timestamp": 1726916548.0,
+        "glucose_value": "191"
+      },
+      {
+        "timestamp": 1726916848.0,
+        "glucose_value": "180"
+      },
+      {
+        "timestamp": 1726917148.0,
+        "glucose_value": "171"
+      },
+      {
+        "timestamp": 1726917447.0,
+        "glucose_value": "179"
+      },
+      {
+        "timestamp": 1726917748.0,
+        "glucose_value": "189"
+      },
+      {
+        "timestamp": 1726918048.0,
+        "glucose_value": "190"
+      },
+      {
+        "timestamp": 1726918348.0,
+        "glucose_value": "189"
+      },
+      {
+        "timestamp": 1726918648.0,
+        "glucose_value": "186"
+      },
+      {
+        "timestamp": 1726918948.0,
+        "glucose_value": "186"
+      },
+      {
+        "timestamp": 1726919247.0,
+        "glucose_value": "186"
+      },
+      {
+        "timestamp": 1726919548.0,
+        "glucose_value": "186"
+      },
+      {
+        "timestamp": 1726919848.0,
+        "glucose_value": "184"
+      },
+      {
+        "timestamp": 1726920147.0,
+        "glucose_value": "181"
+      },
+      {
+        "timestamp": 1726920448.0,
+        "glucose_value": "177"
+      },
+      {
+        "timestamp": 1726920748.0,
+        "glucose_value": "175"
+      },
+      {
+        "timestamp": 1726921048.0,
+        "glucose_value": "176"
+      },
+      {
+        "timestamp": 1726921347.0,
+        "glucose_value": "178"
+      },
+      {
+        "timestamp": 1726921648.0,
+        "glucose_value": "179"
+      },
+      {
+        "timestamp": 1726921948.0,
+        "glucose_value": "178"
+      },
+      {
+        "timestamp": 1726922247.0,
+        "glucose_value": "178"
+      },
+      {
+        "timestamp": 1726922548.0,
+        "glucose_value": "176"
+      },
+      {
+        "timestamp": 1726922848.0,
+        "glucose_value": "175"
+      },
+      {
+        "timestamp": 1726923148.0,
+        "glucose_value": "173"
+      },
+      {
+        "timestamp": 1726923448.0,
+        "glucose_value": "172"
+      },
+      {
+        "timestamp": 1726923748.0,
+        "glucose_value": "171"
+      },
+      {
+        "timestamp": 1726924048.0,
+        "glucose_value": "170"
+      },
+      {
+        "timestamp": 1726924348.0,
+        "glucose_value": "169"
+      },
+      {
+        "timestamp": 1726924648.0,
+        "glucose_value": "168"
+      },
+      {
+        "timestamp": 1726924948.0,
+        "glucose_value": "162"
+      },
+      {
+        "timestamp": 1726925248.0,
+        "glucose_value": "159"
+      },
+      {
+        "timestamp": 1726925548.0,
+        "glucose_value": "157"
+      },
+      {
+        "timestamp": 1726925848.0,
+        "glucose_value": "157"
+      },
+      {
+        "timestamp": 1726926148.0,
+        "glucose_value": "155"
+      },
+      {
+        "timestamp": 1726926448.0,
+        "glucose_value": "151"
+      },
+      {
+        "timestamp": 1726926748.0,
+        "glucose_value": "156"
+      },
+      {
+        "timestamp": 1726927048.0,
+        "glucose_value": "163"
+      },
+      {
+        "timestamp": 1726927347.0,
+        "glucose_value": "163"
+      },
+      {
+        "timestamp": 1726927648.0,
+        "glucose_value": "163"
+      },
+      {
+        "timestamp": 1726927947.0,
+        "glucose_value": "161"
+      },
+      {
+        "timestamp": 1726928248.0,
+        "glucose_value": "156"
+      },
+      {
+        "timestamp": 1726928548.0,
+        "glucose_value": "151"
+      },
+      {
+        "timestamp": 1726928848.0,
+        "glucose_value": "152"
+      },
+      {
+        "timestamp": 1726929148.0,
+        "glucose_value": "153"
+      },
+      {
+        "timestamp": 1726929448.0,
+        "glucose_value": "147"
+      },
+      {
+        "timestamp": 1726929748.0,
+        "glucose_value": "138"
+      },
+      {
+        "timestamp": 1726930048.0,
+        "glucose_value": "135"
+      },
+      {
+        "timestamp": 1726930348.0,
+        "glucose_value": "131"
+      },
+      {
+        "timestamp": 1726930648.0,
+        "glucose_value": "135"
+      },
+      {
+        "timestamp": 1726930948.0,
+        "glucose_value": "135"
+      },
+      {
+        "timestamp": 1726931248.0,
+        "glucose_value": "134"
+      },
+      {
+        "timestamp": 1726931548.0,
+        "glucose_value": "132"
+      },
+      {
+        "timestamp": 1726931848.0,
+        "glucose_value": "131"
+      },
+      {
+        "timestamp": 1726932148.0,
+        "glucose_value": "131"
+      },
+      {
+        "timestamp": 1726932448.0,
+        "glucose_value": "132"
+      },
+      {
+        "timestamp": 1726932748.0,
+        "glucose_value": "134"
+      },
+      {
+        "timestamp": 1726933048.0,
+        "glucose_value": "147"
+      },
+      {
+        "timestamp": 1726933348.0,
+        "glucose_value": "161"
+      },
+      {
+        "timestamp": 1726933648.0,
+        "glucose_value": "188"
+      },
+      {
+        "timestamp": 1726933948.0,
+        "glucose_value": "200"
+      },
+      {
+        "timestamp": 1726934248.0,
+        "glucose_value": "207"
+      },
+      {
+        "timestamp": 1726934548.0,
+        "glucose_value": "204"
+      },
+      {
+        "timestamp": 1726934848.0,
+        "glucose_value": "201"
+      },
+      {
+        "timestamp": 1726935148.0,
+        "glucose_value": "209"
+      },
+      {
+        "timestamp": 1726935449.0,
+        "glucose_value": "213"
+      },
+      {
+        "timestamp": 1726935748.0,
+        "glucose_value": "217"
+      },
+      {
+        "timestamp": 1726936048.0,
+        "glucose_value": "225"
+      },
+      {
+        "timestamp": 1726936348.0,
+        "glucose_value": "235"
+      },
+      {
+        "timestamp": 1726936649.0,
+        "glucose_value": "234"
+      },
+      {
+        "timestamp": 1726936948.0,
+        "glucose_value": "248"
+      },
+      {
+        "timestamp": 1726937248.0,
+        "glucose_value": "253"
+      },
+      {
+        "timestamp": 1726937548.0,
+        "glucose_value": "251"
+      }
+    ]
+}'
