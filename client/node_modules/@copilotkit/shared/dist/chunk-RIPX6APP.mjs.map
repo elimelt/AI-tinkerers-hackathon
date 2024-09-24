@@ -1,1 +1,0 @@
-{"version":3,"sources":["../src/utils/random-id.ts"],"sourcesContent":["import { v4 as uuidv4 } from \"uuid\";\n\nexport function randomId() {\n  return \"ck-\" + uuidv4();\n}\n"],"mappings":";AAAA,SAAS,MAAM,cAAc;AAEtB,SAAS,WAAW;AACzB,SAAO,QAAQ,OAAO;AACxB;","names":[]}
